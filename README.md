@@ -22,7 +22,7 @@ This project provides a Python script designed to process images for object dete
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/VMatee/drawboxtools-helper.git
+   git clone https://github.com/VMatee/drawboxtools-helper-withMS-abac-project.git
    cd your-repository-directory
 2. **Install Required Python Packages:**
 Install the required Python packages using the provided requirements.txt:
@@ -38,18 +38,20 @@ Before running the script, configure the following settings in the script file:
 - OUTPUT_FOLDER: Directory where annotated images and JSON files will be stored.
 - username: Username for API authentication.
 - password: Password for API authentication.
+- Key: key api from Document Intelligence Studio
+- EndPoint: End point from Document Intelligence Studio
 
 **Usage**
 To run the script, execute the following command in your terminal:
 - window
   
   ```bash
-  py image_processing_drawbox_helper.py
+  py image_processing_drawbox_helper MS.py
 
 - Linux/macOS:
 
   ```bash
-  python3 image_processing_drawbox_helper.py
+  python3 image_processing_drawbox_helper MS.py
 
 **What Happens When You Run the Script?**
 
